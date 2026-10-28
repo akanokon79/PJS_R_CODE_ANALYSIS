@@ -19,7 +19,7 @@ MCMC_ESS_MIN <- 400
 BOOT_B <- 500
 
 # Read the supplied, already-standardized annual dataset.
-DATA_FILE <- "C:/Users/AKANINYENE O. EKONG/OneDrive/Desktop/thesisdata.csv"
+DATA_FILE <- "thesisdata.csv"
 D0 <- read.csv(DATA_FILE, stringsAsFactors = FALSE)
 req <- c("Y", paste0("X", 1:10))
 D <- D0[, req, drop = FALSE]
